@@ -539,9 +539,10 @@ payment method must be omitted.
   </dd>
 </dl>
 
-##### Method: `card`
+---
+##### **Method**: `card`
 
-<dl class="dl-horizontal">
+<dl>
   <dt>card[pan]</dt>
   <dd>[0-9]{12,19} <br /> Primary account number of card to charge.</dd>
   <dt>card[expire_month]</dt>
@@ -567,7 +568,8 @@ payment method must be omitted.
   <code>card[csc]</code> cannot be a subsequent recurring authorization.
 </p>
 
-##### Method: `applepay`
+---
+##### **Method**: `applepay`
 
 Apple Pay requires the payment details (PAN, expiry, etc.) of the payment token
 to be decrypted by a symmetric key.
@@ -577,7 +579,7 @@ to [our reference implementation](https://github.com/clearhaus/pedicel) written
 in Ruby; see [Apple's documentation for the <code>PaymentToken</code>
 object][ApplePay-PaymentToken] for more information.
 
-<dl class="dl-horizontal">
+<dl>
   <dt>applepay[payment_token]</dt>
   <dd>[:json:] <br /> Full, raw <code>PKPaymentToken</code> object, UTF-8 encoded serialization of a JSON dictionary.</dd>
   <dt>applepay[symmetric_key]</dt>
@@ -600,9 +602,11 @@ object][ApplePay-PaymentToken] for more information.
   subsequent recurring authorization.
 </p>
 
-##### Method: `mobilepayonline`
 
-<dl class="dl-horizontal">
+---
+##### **Method**: `mobilepayonline`
+
+<dl>
   <dt>mobilepayonline[pan]</dt>
   <dd>[0-9]{12,19} <br /> Primary account number of card to charge.</dd>
   <dt>mobilepayonline<br />[expire_month]</dt>
