@@ -586,7 +586,7 @@ Exactly one payment method must be used.
 </dl>
 
 ---
-##### **Method**: `card`
+##### Method: `card`
 
 <dl class="dl-vertical">
   <dt>card[pan]
@@ -636,7 +636,7 @@ Exactly one payment method must be used.
   and/or <code>card[csc]</code> cannot be a subsequent recurring authorization.
 </p>
 
-##### **Method**: `applepay`
+##### Method: `applepay`
 
 Apple Pay requires the payment details (PAN, expiry, etc.) of the payment token
 to be decrypted by a symmetric key.
@@ -680,7 +680,7 @@ object][ApplePay-PaymentToken] for more information.
 </p>
 
 
-##### **Method**: `googlepay`
+##### Method: `googlepay`
 
 To accept a payment using Google Pay, the complete payment token, recipient ID
 and derived shared secret, are required. Please refer to the [official
@@ -730,7 +730,7 @@ supported.
   environment is <code>12345678901234567890</code>.
 </p>
 
-##### **Method**: `mobilepayonline`
+##### Method: `mobilepayonline`
 
 <dl class="dl-vertical">
   <dt>mobilepayonline[pan]
