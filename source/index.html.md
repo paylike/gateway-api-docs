@@ -585,7 +585,6 @@ Exactly one payment method must be used.
   </dd>
 </dl>
 
----
 ##### Method: `card`
 
 <dl class="dl-vertical">
