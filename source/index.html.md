@@ -704,7 +704,7 @@ Supported protocol versions are `ECv1` and `ECv2`.
   </dd>
   <dt>googlepay[recipient_id]
     <span class="type">[\x20-\x7E]+
-      <a target="_blank" href="http://en.wikipedia.org/wiki/ASCII#ASCII_printable_characters">ASCII printable characters exluding space</a>
+      <a target="_blank" href="http://en.wikipedia.org/wiki/ASCII#ASCII_printable_characters">ASCII printable characters excluding space</a>
     </span>
   </dt>
   <dd>
