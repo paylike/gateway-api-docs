@@ -1,12 +1,12 @@
 source 'https://rubygems.org'
-ruby '2.1.10'
+ruby '2.3.3'
 
-gem 'middleman', '>=3.3.3'
+gem 'middleman'
 gem 'middleman-syntax'
 gem 'middleman-livereload'
-gem 'middleman-sprockets', '3.3.2'
+gem 'middleman-sprockets'
 
-gem 'redcarpet', :git => 'https://github.com/vmg/redcarpet.git'
+gem 'redcarpet'
 
 gem 'slim'
 gem 'sass'
@@ -15,5 +15,5 @@ gem 'bootstrap-sass'
 gem 'execjs'
 
 # Heroku hosting
-gem 'puma'
-gem 'rake'
+gem 'puma', '~> 4'
+gem 'rake', '~> 13'

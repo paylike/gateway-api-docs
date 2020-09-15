@@ -3,6 +3,9 @@ set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
+#
+# Activate sprockets
+activate :sprockets
 
 after_configuration do
   sprockets.append_path File.join "#{root}", "bower_components"
@@ -13,13 +16,13 @@ activate :livereload
 set :markdown_engine, :redcarpet
 
 set :markdown,
-  :fenced_code_blocks => true, 
-  :smartypants => true, 
-  :disable_indented_code_blocks => true, 
-  :prettify => true, 
-  :tables => true, 
+  :fenced_code_blocks => true,
+  :smartypants => true,
+  :disable_indented_code_blocks => true,
+  :prettify => true,
+  :tables => true,
   :with_toc_data => true,
-  :no_intra_emphasis => true 
+  :no_intra_emphasis => true
 
 # Activate the syntax highlighter
 activate :syntax
