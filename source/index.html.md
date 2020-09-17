@@ -388,7 +388,7 @@ not be included. 3-D Secure version 2 has some support for subsequent
 authorizations.
 
 An initial recurring authorization can also be made using the `applepay`,
-`googlepay` and `mobilepayonline` payment methods; subsequent recurring
+`googlepay` or `mobilepayonline` payment methods; subsequent recurring
 payments, however, must be made using the `card` payment method using the card
 details of the initial recurring authorization.
 
@@ -702,8 +702,8 @@ supported.
     key.
   </dd>
   <dt>googlepay[recipient_id]
-    <span class="type">[\x20-\x7E]+
-      <a target="_blank" href="http://en.wikipedia.org/wiki/ASCII#ASCII_printable_characters">ASCII printable characters excluding space</a>
+    <span class="type">[\x21-\x7E]+
+      <a target="_blank" href="http://en.wikipedia.org/wiki/ASCII#ASCII_printable_characters">ASCII printable characters</a> excluding space
     </span>
   </dt>
   <dd>
